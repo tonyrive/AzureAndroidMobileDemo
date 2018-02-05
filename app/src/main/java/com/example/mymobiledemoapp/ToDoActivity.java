@@ -170,6 +170,7 @@ public class ToDoActivity extends Activity {
         // Set the item as completed and update it in the table
         item.setComplete(true);
 
+
         AsyncTask<Void, Void, Void> task = new AsyncTask<Void, Void, Void>(){
             @Override
             protected Void doInBackground(Void... params) {
